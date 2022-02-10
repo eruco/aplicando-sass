@@ -70,6 +70,7 @@
     scroll-behavior: smooth;
   }
 }
+$fondogradiente: background-image linear-gradient(blue , green);
 
 body {
   margin: 0;
@@ -107,7 +108,7 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
   padding-left: 50%;
-  background-image: linear-gradient(blue , green);
+  background-image: $fondogradiente;
   padding: 7.5vh;
   margin: 5vh;
 
