@@ -1,0 +1,14 @@
+$colores:(
+    faceboock: blue,
+    whatssap: green,
+    instagram: purple,
+    mail: yellow,
+);
+
+
+@each $name-color, $bgcolor in $colores {
+    .boton-#{$name-color}{
+        background-color: $bgcolor;
+        border: $bgcolor;
+    }
+} 

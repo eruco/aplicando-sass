@@ -5,6 +5,47 @@
  * Copyright 2011-2021 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+.boton-faceboock {
+  background-color: blue;
+  border: blue; }
+
+.boton-whatssap {
+  background-color: green;
+  border: green; }
+
+.boton-instagram {
+  background-color: purple;
+  border: purple; }
+
+.boton-mail {
+  background-color: yellow;
+  border: yellow; }
+
+.imagenuno {
+  width: 300px;
+  height: 100px; }
+
+.imagendos {
+  width: 500px;
+  height: 200px; }
+
+.btn_success, .btn_alert, .btn_cancel {
+  width: 100px;
+  text-align: center;
+  padding: 5px 0;
+  margin: 2px auto;
+  border-radius: 2px;
+  color: #FFFFFF; }
+
+.btn_success {
+  background-color: #108EFF; }
+
+.btn_alert {
+  background-color: #FF8516; }
+
+.btn_cancel {
+  background-color: #D61E20; }
+
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;

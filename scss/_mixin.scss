@@ -1,0 +1,10 @@
+@mixin tamanio($anchuraa, $altura) {
+    width: $anchuraa;
+    height: $altura;
+ }
+.imagenuno{
+    @include tamanio(300px, 100px);
+}
+.imagendos{
+    @include tamanio(500px, 200px)
+}
