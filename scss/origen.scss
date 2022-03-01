@@ -133,6 +133,8 @@ h2, .h2 {
 
 h3, .h3 {
   font-size: calc(1.3rem + 0.6vw);
+  padding: 7.5vh;
+  margin: 5vh;
 }
 @media (min-width: 1200px) {
   h3, .h3 {
